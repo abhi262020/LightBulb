@@ -54,21 +54,6 @@
 ### Trigger: Break Bulb event.
 ### Guard: Always true (the bulb can break any time when on).
 ### Effect: Print "Bulb broke."
-# Diagram Representation:
-
-##  +-------+        Turn On       +-------+
-##  |       | ------------------>  |       |
-##  |  Off  |                      |   On  |
-##  |       | <------------------  |       |
-##  +-------+      Turn Off        +-------+
-##                   |                |
-##                   |                |
-##                   |                V
-##             +--------------------------+
-##             |                          |
-##             |         Broken           |
-##             |                          |
-##             +--------------------------+
                
 # Real-World Analogy:
 ### The light bulb state machine is a simplified version of how an actual light bulb operates:
